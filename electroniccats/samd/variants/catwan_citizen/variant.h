@@ -53,8 +53,8 @@ extern "C"
  *----------------------------------------------------------------------------*/
 
 // Number of pins defined in PinDescription array
-#define PINS_COUNT           (22u)
-#define NUM_DIGITAL_PINS     (8u)
+#define PINS_COUNT           (23u)
+#define NUM_DIGITAL_PINS     (9u)
 #define NUM_ANALOG_INPUTS    (4u)
 #define NUM_ANALOG_OUTPUTS   (0u)
 
@@ -82,6 +82,8 @@ extern "C"
 
 #define RFM_RST              (12u)
 #define RFM_DIO0             (0u)
+#define RFM_DIO1             (23u)
+#define RFM_DIO2             (13u)
 
 /* Analog pins*/
  
